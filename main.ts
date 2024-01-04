@@ -11,8 +11,6 @@ function sentinelLinearSearch() {
 
   let i = 0;
   while (true) {
-    console.log(ary[i])
-    // 探索する値を見つけた場合
     if (ary[i] === x) {
       break;
     }
