@@ -12,3 +12,9 @@ pnpm run dev
 ```shell
 pnpm run watch
 ```
+
+## Format code
+
+```shell
+pnpm run format
+```

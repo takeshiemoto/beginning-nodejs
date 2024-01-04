@@ -1,4 +1,3 @@
-
 function linearSearch() {
   // 対象の配列
   const ary = [1, 2, 3, 4, 5, 6, 7, 8, 9];

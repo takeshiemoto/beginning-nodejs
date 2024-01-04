@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx main.ts",
-    "watch": "tsx --watch main.ts"
+    "watch": "tsx --watch main.ts",
+    "format": "biome format --write main.ts"
   },
   "keywords": [],
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@biomejs/biome": "1.4.1",
     "tsx": "^4.7.0"
   }
 }
