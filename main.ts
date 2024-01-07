@@ -1,3 +1,23 @@
+function convertDecimalToBinary(decimal: number): string {
+  // 0の場合は0
+  if (decimal === 0) {
+    return "0";
+  }
+
+  let binary = "";
+  let current = decimal;
+
+  // 10進数の値が0になるまでループする
+  while (current > 0) {
+    // 2で割ったあまり
+    binary = (current % 2) + binary;
+    // 10進数の値を2で割って更新
+    current = Math.floor(current / 2);
+  }
+
+  return binary;
+}
+
 function sentinelLinearSearch() {
   console.log("Running sentinelLinearSearch");
   // 対象の配列
@@ -62,7 +82,8 @@ function linearSearch() {
 
 function main() {
   // linearSearch();
-  sentinelLinearSearch();
+  // sentinelLinearSearch();
+  console.log(convertDecimalToBinary(40));
 }
 
 main();
