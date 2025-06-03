@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx main.ts",
+    "dev": "tsx promise.ts",
     "watch": "tsx --watch main.ts",
     "format": "biome format --write main.ts"
   },
